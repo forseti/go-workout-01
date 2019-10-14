@@ -1,22 +1,21 @@
 package banking
 
 import (
-	"fmt"
 	"testing"
 )
 
 func TestWallet(t *testing.T) {
 	wallet := Wallet{}
 
-	wallet.Deposit(10)
+	wallet.Deposit(Bitcoin(10))
 
 	got := wallet.Balance()
 
-	fmt.Printf("address of balance in test is %v \n", &wallet.balance)
+	// fmt.Printf("address of balance in test is %v \n", &wallet.balance)
 
-	want := 10
+	want := Bitcoin(10)
 
 	if got != want {
-		t.Errorf("got %d want %d", got, want)
+		t.Errorf("got %s want %s", got, want)
 	}
 }
