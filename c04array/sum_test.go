@@ -1,4 +1,4 @@
-package arrays
+package c04array
 
 import (
 	"reflect"

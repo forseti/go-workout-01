@@ -1,4 +1,4 @@
-package integers
+package c02integer
 
 import (
 	"fmt"

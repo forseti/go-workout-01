@@ -1,4 +1,4 @@
-package calculate
+package c05struct_method_interface
 
 import "testing"
 
@@ -36,8 +36,8 @@ func TestArea(t *testing.T) {
 
 func TestAreaWithTableDriven(t *testing.T) {
 	areaTests := []struct{
-		name string
-		shape Shape
+		name    string
+		shape   Shape
 		hasArea float64
 	}{
 		{name: "Rectangle", shape: Rectangle{12, 6}, hasArea: 72.0},

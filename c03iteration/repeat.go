@@ -1,4 +1,4 @@
-package iteration
+package c03iteration
 
 func Repeat(character string, repeat int) string  {
 	var repeated string

@@ -1,4 +1,4 @@
-package banking
+package c06pointer_error
 
 import (
 	"errors"

@@ -1,4 +1,4 @@
-package calculate
+package c05struct_method_interface
 
 import "math"
 
