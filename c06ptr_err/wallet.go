@@ -1,4 +1,4 @@
-package c06pointer_error
+package c06ptr_err
 
 import (
 	"errors"

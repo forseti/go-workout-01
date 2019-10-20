@@ -1,4 +1,4 @@
-package c05struct_method_interface
+package c05struct_mtd_inter
 
 import "math"
 
