@@ -1,4 +1,4 @@
-package c08di
+package main
 
 import (
 	"bytes"

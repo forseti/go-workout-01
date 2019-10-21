@@ -1,4 +1,4 @@
-package c01hello
+package main
 
 import (
 	"testing"
