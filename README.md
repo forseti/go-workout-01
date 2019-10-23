@@ -3,19 +3,29 @@ Go's workout 01, based on [Learn Go with Tests](https://quii.gitbook.io/learn-go
 
 #### Go commands ####
 To run test
-```shell
+```console
 go test
 ```
 To run test with coverage
-```shell
+```console
 go test -cover
 ```
 To run test (verbose)
-```shell
+```console
 go test -test.v
 ```
 To run a (particular) test
-```shell
+```console
 go test -run <TestName>
 go test -run TestArea
+```
+To run test with benchmark
+```console
+go test -bench=<LOCATION>
+go test -bench=.
+```
+
+To run test with the [race detector](https://blog.golang.org/race-detector)
+```console
+go test -race
 ```
