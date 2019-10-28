@@ -29,3 +29,8 @@ To run test with the [race detector](https://blog.golang.org/race-detector)
 ```console
 go test -race
 ```
+
+To find errors not caught by the compiler
+```console
+go vet
+```
